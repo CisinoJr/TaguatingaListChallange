@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		498A5FA32A046D3D004BD011 /* ColoredSFSymbolsWithTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498A5FA22A046D3D004BD011 /* ColoredSFSymbolsWithTitle.swift */; };
 		49BA5A212A005F5800041205 /* ColoredShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA5A202A005F5800041205 /* ColoredShapesView.swift */; };
 		49BA5A242A00619A00041205 /* ColoredTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA5A232A00619A00041205 /* ColoredTextView.swift */; };
 		49BA5A282A00645B00041205 /* ColoredText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA5A272A00645B00041205 /* ColoredText.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		498A5FA22A046D3D004BD011 /* ColoredSFSymbolsWithTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredSFSymbolsWithTitle.swift; sourceTree = "<group>"; };
 		49BA5A202A005F5800041205 /* ColoredShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredShapesView.swift; sourceTree = "<group>"; };
 		49BA5A232A00619A00041205 /* ColoredTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredTextView.swift; sourceTree = "<group>"; };
 		49BA5A272A00645B00041205 /* ColoredText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredText.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 				49BA5A202A005F5800041205 /* ColoredShapesView.swift */,
 				49BA5A232A00619A00041205 /* ColoredTextView.swift */,
 				49BA5A2B2A006F9600041205 /* ColoredSFSymbolsView.swift */,
+				498A5FA22A046D3D004BD011 /* ColoredSFSymbolsWithTitle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			files = (
 				49BA5A242A00619A00041205 /* ColoredTextView.swift in Sources */,
 				49BA5A282A00645B00041205 /* ColoredText.swift in Sources */,
+				498A5FA32A046D3D004BD011 /* ColoredSFSymbolsWithTitle.swift in Sources */,
 				49BA5A2C2A006F9600041205 /* ColoredSFSymbolsView.swift in Sources */,
 				49FA2D852A0051BF00358C1B /* ContentView.swift in Sources */,
 				49BA5A2A2A006EC900041205 /* ColoredSFSymbols.swift in Sources */,

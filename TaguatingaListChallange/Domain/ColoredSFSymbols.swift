@@ -10,6 +10,7 @@ import SwiftUI
 
 struct ColoredSFSymbols: Hashable {
 	var name: String
-	var color: Color
-	var description: String
+	var primaryColor: Color
+	var secondaryColor: Color?
+	var description: String?
 }

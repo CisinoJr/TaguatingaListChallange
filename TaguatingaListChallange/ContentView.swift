@@ -16,10 +16,10 @@ struct ContentView: View {
 				.font(.system(size: 34))
 				.padding(60)
 
-			
 			ColoredShapesView()
 			ColoredTextView()
 			ColoredSFSymbolsView()
+			ColoredSFSymbolsWithTitle()
 			
 			Spacer()
 		}
