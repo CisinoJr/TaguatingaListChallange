@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49BA5A212A005F5800041205 /* ColoredShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA5A202A005F5800041205 /* ColoredShapesView.swift */; };
+		49BA5A242A00619A00041205 /* ColoredTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA5A232A00619A00041205 /* ColoredTextView.swift */; };
+		49BA5A282A00645B00041205 /* ColoredText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA5A272A00645B00041205 /* ColoredText.swift */; };
+		49BA5A2A2A006EC900041205 /* ColoredSFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA5A292A006EC900041205 /* ColoredSFSymbols.swift */; };
+		49BA5A2C2A006F9600041205 /* ColoredSFSymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA5A2B2A006F9600041205 /* ColoredSFSymbolsView.swift */; };
 		49FA2D832A0051BF00358C1B /* TaguatingaListChallangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FA2D822A0051BF00358C1B /* TaguatingaListChallangeApp.swift */; };
 		49FA2D852A0051BF00358C1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FA2D842A0051BF00358C1B /* ContentView.swift */; };
 		49FA2D872A0051C000358C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FA2D862A0051BF00358C1B /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49BA5A202A005F5800041205 /* ColoredShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredShapesView.swift; sourceTree = "<group>"; };
+		49BA5A232A00619A00041205 /* ColoredTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredTextView.swift; sourceTree = "<group>"; };
+		49BA5A272A00645B00041205 /* ColoredText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredText.swift; sourceTree = "<group>"; };
+		49BA5A292A006EC900041205 /* ColoredSFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredSFSymbols.swift; sourceTree = "<group>"; };
+		49BA5A2B2A006F9600041205 /* ColoredSFSymbolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredSFSymbolsView.swift; sourceTree = "<group>"; };
 		49FA2D7F2A0051BE00358C1B /* TaguatingaListChallange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaguatingaListChallange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FA2D822A0051BF00358C1B /* TaguatingaListChallangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaguatingaListChallangeApp.swift; sourceTree = "<group>"; };
 		49FA2D842A0051BF00358C1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +42,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49BA5A222A00614100041205 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49BA5A202A005F5800041205 /* ColoredShapesView.swift */,
+				49BA5A232A00619A00041205 /* ColoredTextView.swift */,
+				49BA5A2B2A006F9600041205 /* ColoredSFSymbolsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49BA5A262A00644300041205 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				49BA5A272A00645B00041205 /* ColoredText.swift */,
+				49BA5A292A006EC900041205 /* ColoredSFSymbols.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 		49FA2D762A0051BE00358C1B = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +80,8 @@
 		49FA2D812A0051BE00358C1B /* TaguatingaListChallange */ = {
 			isa = PBXGroup;
 			children = (
+				49BA5A262A00644300041205 /* Domain */,
+				49BA5A222A00614100041205 /* Views */,
 				49FA2D822A0051BF00358C1B /* TaguatingaListChallangeApp.swift */,
 				49FA2D842A0051BF00358C1B /* ContentView.swift */,
 				49FA2D862A0051BF00358C1B /* Assets.xcassets */,
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BA5A242A00619A00041205 /* ColoredTextView.swift in Sources */,
+				49BA5A282A00645B00041205 /* ColoredText.swift in Sources */,
+				49BA5A2C2A006F9600041205 /* ColoredSFSymbolsView.swift in Sources */,
 				49FA2D852A0051BF00358C1B /* ContentView.swift in Sources */,
+				49BA5A2A2A006EC900041205 /* ColoredSFSymbols.swift in Sources */,
 				49FA2D832A0051BF00358C1B /* TaguatingaListChallangeApp.swift in Sources */,
+				49BA5A212A005F5800041205 /* ColoredShapesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
